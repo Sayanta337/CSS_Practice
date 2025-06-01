@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Inline, Internal, External CSS in 1</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /*avg priority, avg in use*/
+        h1 { color: blue;}
+    </style>
 </head>
 <body>
-    
+    <!--(top priority, less in use)-->
+    <h1 style="color:red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci mollitia dicta sed nostrum dignissimos?</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, modi.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsa deserunt, voluptate tempora vitae, cumque magni saepe suscipit sed delectus, reprehenderit qui ipsum atque in.</p>
 </body>
 </html>
