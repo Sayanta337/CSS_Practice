@@ -1,0 +1,4 @@
+.container{background-color: pink;}
+#one{ height: 400px; width: auto; background-position: center; background-image: url(Animated.jpg); background-size: contain; background-repeat: no-repeat;}
+#two{ height: 1000px; width: auto; background-position: center; background-image: url(Animated.jpg); background-repeat: repeat-y;}
+#three{height: 400px; width: auto; background-position: center; background-image: url(Animated.jpg); background-size: contain; background-repeat: no-repeat;visibility: hidden;}
