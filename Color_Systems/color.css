@@ -1,0 +1,5 @@
+.box { height: 300px;
+width: 600px;}
+#one {color: rgb(254, 16, 16); background-color: pink;}
+#two {color: rgba(0,0,255,0.8); background-color: aqua;}
+#three {color: #147a07 ;background-color: greenyellow;}
