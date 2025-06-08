@@ -1,0 +1,49 @@
+.box {height: 100px; width: 300px;}
+
+/*text_align*/
+#box1 {background-color: pink; text-align: none;}
+#box2 {background-color: greenyellow; text-align: left;}
+#box3 {background-color: aqua; text-align: center;}
+#box4 {background-color: peru; text-align: right;}
+
+/*text_decoration*/
+#box5 {background-color: peru; text-align: none;}
+    #anchor { text-decoration: none;}
+#box6 {background-color: aqua; text-align: left; text-decoration: underline;}
+#box7 {background-color: greenyellow; text-align: center; text-decoration: overline;}
+#box8 {background-color: pink; text-align: right; text-decoration: line-through;}
+
+/*text_decoration_style*/
+#box9 {background-color: pink; text-align: none;}
+    #anchor2 { text-decoration-style: dashed;}
+#box10 {background-color: greenyellow; text-align: left; text-decoration: underline;text-decoration-style: double;}
+#box11 {background-color: aqua; text-align: center; text-decoration: overline;text-decoration-style: solid;}
+#box12 {background-color: peru; text-align: right; text-decoration: line-through; text-decoration-style: wavy;}
+
+/* "text-decoration-color" is same as style property. We can change the color of "text-decoration-style" */
+
+/*text_transform*/
+#box13 {background-color: peru; text-align: none; text-transform: none;}
+#box14 {background-color: aqua; text-align: left; text-transform: uppercase;}
+#box15 {background-color: greenyellow; text-align: center; text-transform: lowercase;}
+#box16 {background-color: pink; text-align: right; text-transform: capitalize;}
+
+/*line_height*/
+#box17 {line-height: 35px; text-align: center; background-color: pink;}
+
+.paragraph {height: 200px; width: 400px;}
+
+/*font_size*/
+#box18 {background-color: greenyellow; font-size: 20px; text-align: center; line-height: 30px;}
+
+/*font_weight*/
+#box19 {background-color: aqua; font-size: 18px; text-align: center; line-height: 40px; font-weight: 700;}
+
+/*font_style*/
+#box20 {font-style: italic; background-color: peru; font-size: 20px; text-align: center; line-height: 30px;}
+
+/*font_family*/
+#box21 {font-family: cursive, Arial, sans-serif; background-color: peru; font-size: 20px; text-align: center; line-height: 30px;}
+
+/*icon_using_fonts*/
+#box22 {background-color: red;font-size: 100px;text-align: center; color: pink;}
