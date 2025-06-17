@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox property</title>
+    <style>
+        * {margin: 0px; padding: 0;}
+        
+        .first {background-color: antiquewhite;
+        height: 120px;
+        width: 600px;
+        border: 2px solid palevioletred;
+        border-radius: 8px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;}
+
+        .second {height: 100px;
+        width: 100px;
+        border: 2px solid gray;
+        border-radius: 8px;
+        margin: 10px;}
+
+        #one {background-color: pink;}
+        #two {background-color: aquamarine;}
+        #three {background-color: greenyellow;}
+
+        .third {background-color: antiquewhite;
+        height: 600px;
+        width: 120px;
+        border: 2px solid palevioletred;
+        border-radius: 8px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;}
+
+        .fourth {height: 100px;
+        width: 100px;
+        border: 2px solid gray;
+        border-radius: 8px;
+        margin: 10px;}
+
+        #secondone {background-color: pink;}
+        #secondtwo {background-color: aquamarine;}
+        #secondthree {background-color: greenyellow;}
+    </style>
+</head>
+<body>
+    <div class="first">
+    <div class="second" id="one">One</div>
+    <div class="second" id="two">Two</div>
+    <div class="second" id="three">Three</div>
+    </div>
+    <div class="third">
+    <div class="fourth" id="secondone">Four</div>
+    <div class="fourth" id="secondtwo">Five</div>
+    <div class="fourth" id="secondthree">Six</div>
+    </div>
+</body>
+</html>
