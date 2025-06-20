@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+        *{margin: 0;
+        padding: 0;
+        font-family: cursive, Arial, Helvetica, sans-serif;
+        }
+        div {height: 800px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+      .btn,.btn-H,.btn-A {
+        background-color: aqua;
+        height: 100px;
+        width: 200px;
+        margin: 20px;
+        border: 2px solid gray;
+        border-radius: 20px;
+        color: grey;
+        font-size: 30px;
+      }
+      .btn-H:hover {background-color: rgba(100, 150, 100, 0.5);}
+      .btn-A:active {background-color: rgba(199, 37, 178, 0.5);}
+    </style>
+  </head>
+  <body>
+    <div>
+        <button class="btn">BUTTON</button>
+        <button class="btn-H">HOVER HERE</button>
+        <button class="btn-A">CLICK HERE</button>
+    </div>
+  </body>
+</html>
