@@ -1,0 +1,8 @@
+div {
+        height: 300px;
+        width: 300px;
+        background-color: wheat;
+    }
+    @media screen and (max-width: 600px) {
+        div { background-color: aqua;}
+    }
